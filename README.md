@@ -8,4 +8,4 @@
 
 ```npm install```
 
-*** Con esto funcionaria normal la Aplicacion ***
+**Con esto funcionaria normal la Aplicacion**

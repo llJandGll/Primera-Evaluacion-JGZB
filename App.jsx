@@ -30,6 +30,8 @@ function MainTabs() {
             iconName = 'accessibility';
           } else if (route.name === 'Contacto') {
             iconName = 'contract';
+          }else if (route.name === 'Cotizacion') {
+            iconName = 'medal';
           }
 
           return <Icon name={iconName} size={size} color={color} />;

@@ -4,7 +4,7 @@ import Icon from '@expo/vector-icons/Ionicons';
 
 export default function ContactScreen() {
   const openMap = () => {
-    const latitude = -21.5355; // Coordenadas de ejemplo para Tarija
+    const latitude = -21.5355; 
     const longitude = -64.7293;
     const label = "Empresa de Seguridad Tarija";
     const url = `https://www.google.com/maps/search/?api=1&query=${latitude},${longitude}`;
@@ -14,15 +14,15 @@ export default function ContactScreen() {
   return (
     <View style={styles.container}>
       <View style={styles.infoContainer}>
-        <Icon name="location-on" size={30} color="#1E3A8A" />
+        <Icon name="location" size={30} color="#1E3A8A" />
         <Text style={styles.infoText}>Av. La Paz 123, Tarija, Bolivia</Text>
       </View>
       <View style={styles.infoContainer}>
-        <Icon name="phone" size={30} color="#1E3A8A" />
-        <Text style={styles.infoText}>+591 4 6645678</Text>
+        <Icon name="phone-portrait" size={30} color="#1E3A8A" />
+        <Text style={styles.infoText}>+591 61853613</Text>
       </View>
       <View style={styles.infoContainer}>
-        <Icon name="email" size={30} color="#1E3A8A" />
+        <Icon name="person-remove" size={30} color="#1E3A8A" />
         <Text style={styles.infoText}>info@seguridadtarija.com</Text>
       </View>
       <TouchableOpacity style={styles.mapButton} onPress={openMap}>

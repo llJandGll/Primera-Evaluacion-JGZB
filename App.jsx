@@ -10,6 +10,7 @@ import ServicesScreen from './screens/ServicesScreen';
 import TestimonialsScreen from './screens/TestimonialsScreen';
 import ContactScreen from './screens/ContactScreen';
 import GalleryScreen from './screens/GalleryScreen';
+import Cotizacion from './screens/Cotizacion';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -45,6 +46,7 @@ function MainTabs() {
       })}
     >
       <Tab.Screen name="Inicio" component={HomeScreen} />
+      <Tab.Screen name="Cotizacion" component={Cotizacion} />
       <Tab.Screen name="Servicios" component={ServicesScreen} />
       <Tab.Screen name="Testimonios" component={TestimonialsScreen} />
       <Tab.Screen name="Contacto" component={ContactScreen} />
